@@ -1,0 +1,119 @@
+.box {
+    background: #E5F5FF;
+    border: 2px solid #0681C6;
+    border-radius: 10px;
+  }
+  
+  img {
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  h3 {
+    color: #000;
+    font-size: 35px;
+    font-style: bold;
+    line-height: normal;
+    text-align: left;
+    font-family: Red Rose;
+  }
+  
+  p {
+    text-align: left;
+    font-size: large;
+    font-family: Red Rose;
+    font-style: bold;
+  }
+  
+  span {
+    color: #000;
+    font-family: Red Rose;
+    font-style: normal;
+    line-height: normal;
+    font-size: bold;
+  }
+  
+  button {
+    float: left;
+    width: 130px;
+    height: 50px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    background: #0681C6;
+    color: #fff;
+    text-align: center;
+    font-size: bold;
+    font-family: Red Rose;
+    font-weight: 500;
+  }
+  
+  button:hover {
+    float: left;
+    width: 130px;
+    height: 50px;
+    border-radius: 15px;
+    border: 1px solid #0681C6;
+    background: #09537E;
+    color: #fff;
+    text-shadow: 0 1px 1px #0681C6;
+    text-align: center;
+    font-size: bold;
+    font-family: Red Rose;
+    font-weight: 500;
+  }
+  
+  .boton2 {
+    float: right;
+  }
+  
+  .translate-middle {
+    transform: translate(-50%, -50%);
+  }
+  
+  .w-100 {
+    width: 100%;
+  }
+  
+
+  
+  @media screen and (max-width: 480px) {
+    img {
+      width: 110px;
+      height: 180px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    .video{
+        height: 300px;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    img{
+      width: 120px;
+      height: 190px;
+    }
+    h3{
+      color: #000;
+      font-family: Red Rose;
+      font-size: 18px;
+      font-style: bold; 
+      line-height: normal;
+      text-align: left;
+  }
+  p{
+    text-align: left;
+    font-size: 12px;
+  }
+  span{
+    color: #000;
+    font-family: Red Rose;
+    font-style: normal;
+    font-size: 13px;
+    line-height: normal;
+  }
+  .video{
+    height: 300px;
+  }
+  }
